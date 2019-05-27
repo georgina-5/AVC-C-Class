@@ -26,8 +26,10 @@ int check_red = 0;
 			Count++;
 		}
 		for(int i = 0; i < 14; i++){
-			cout<<"Pixel value = "<<sample_array[i]<<endl;
-			}
+			cout<<"Pixel value = "<<sample_array[i]<<endl;		//can comment this line out if needed
+			}							//so check red can be tested
+		
+		cout<<"Red value = "<<check_red<<endl;
 		//sleep(1);		//put a sleep in just in case it needs to be slowed down
 		Count = 0;
 		take_picture();
